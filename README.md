@@ -313,6 +313,30 @@ from its phone. The Bot should simply read commands in the programming
 language and print (or draw) the corresponding results.
 
 
+# Lliurament
+
+
+Heu de lliurar la vostra pràctica al Racó. Només heu de lliurar un fitxer ZIP
+que, al descomprimir-se generi:
+- Un fitxer `requirements.txt` amb les llibreries que utilitza el vostre projecte
+  - vegeu, per exemple, https://pip.pypa.io/en/stable/user_guide/#requirements-files.
+- Un fitxer `README.md` que el documenti
+  - vegeu, per exemple, https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.
+- Un fitxer `polygons.py` que contingui la classe de polígons.
+- Una carpeta `cl` amb el contingut de la part de compiladors.
+- Una carpeta `bot` amb el contingut de la part del chatbot
+  - l'arxiu principal s'ha de dir `bot.py`
+
+Els vostres fitxers de codi en Python han de seguir les regles d’estı́l PEP8,
+tot i que podeu oblidar les restriccions sobre la llargada màxima de les lı́nies.
+Podeu utilitzar el paquet pep8 o http://pep8online.com/ per assegurar-vos
+que seguiu aquestes regles d’estı́l. L’ús de tabuladors en el codi queda prohibit
+(zero directe).
+
+El termini de lliurament és el **dilluns 11 de gener a les 23:59**.
+
+Per evitar problemes de còpies,
+no pengeu el vostre projecte en repositoris públics.
 
 
 ## Llibreries
@@ -338,28 +362,4 @@ Transpes 56 a 62 de https://www.cs.upc.edu/~jordicf/Teaching/AP2/pdf/03_Algorith
 - Càlcul de la intersecció de polígons convexos. Stackoverflow.
 https://stackoverflow.com/questions/13101288/intersection-of-two-convex-polygons
 
-
-## Lliurament
-
-Heu de lliurar la vostra pràctica al Racó. Només heu de lliurar un fitxer ZIP
-que, al descomprimir-se generi:
-- Un fitxer `requirements.txt` amb les llibreries que utilitza el vostre projecte
-  - vegeu, per exemple, https://pip.pypa.io/en/stable/user_guide/#requirements-files.
-- Un fitxer `README.md` que el documenti
-  - vegeu, per exemple, https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.
-- Un fitxer `polygons.py` que contingui la classe de polígons.
-- Una carpeta `cl` amb el contingut de la part de compiladors.
-- Una carpeta `bot` amb el contingut de la part del chatbot
-  - l'arxiu principal s'ha de dir `bot.py`
-
-Els vostres fitxers de codi en Python han de seguir les regles d’estı́l PEP8,
-tot i que podeu oblidar les restriccions sobre la llargada màxima de les lı́nies.
-Podeu utilitzar el paquet pep8 o http://pep8online.com/ per assegurar-vos
-que seguiu aquestes regles d’estı́l. L’ús de tabuladors en el codi queda prohibit
-(zero directe).
-
-El termini de lliurament és el dilluns 11 de gener a les 23:59.
-
-Per evitar problemes de còpies,
-no pengeu el vostre projecte en repositoris públics.
 
